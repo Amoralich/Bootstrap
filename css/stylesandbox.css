@@ -1,0 +1,30 @@
+.container-fluid {
+    background-color: tomato;
+}
+
+.col {
+    background-color: aqua;
+}
+
+.col-6 {
+    background-color: darkred;
+    border: 1px solid black;
+    color: aquamarine;
+}
+
+.col-3 {
+    background-color: blue;
+    border: 1px solid black;
+    color: darksalmon;
+}
+
+.col-md-6 {
+    background-color: firebrick;
+    border: 1px solid black;
+}
+
+.col-md-4 {
+    background-color: midnightblue;
+    color: white;
+    border: 1px solid white;
+}
