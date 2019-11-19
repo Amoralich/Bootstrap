@@ -46,3 +46,11 @@ h1 {
     font-size: 1.2rem;
 }
 
+.Download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    width: 55%;
+    transform: rotate(11deg);
+}
