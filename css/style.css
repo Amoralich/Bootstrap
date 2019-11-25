@@ -8,6 +8,11 @@ body {
     font-family: 'Ubuntu';
 }
 
+.row {
+    margin: 0;
+    padding: 0;
+}
+
 .container-fluid {
   padding: 0;
 }
@@ -53,4 +58,85 @@ h1 {
 .title-image {
     width: 55%;
     transform: rotate(11deg);
+}
+
+/*FEATURE SECTION*/
+
+.feature .row {
+     margin: 0;
+     padding: 0;
+}
+
+.feature {
+    padding: 7% 15%;
+    background-color: #fff;
+   
+}
+
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-box h3 {
+    font-family: 'Ubuntu';
+    font-weight: 900;
+}
+
+.feature-box p {
+    color: #8f8f8f;
+}
+
+#features i {
+    color: var(--santa-red);
+    margin-bottom: 1rem;
+}
+
+#features i:hover {
+    color: var(--santa-green);
+}
+
+#testimonials {
+    background-color: var(--santa-red-alfa);
+    color: #fff;
+    text-align: center;
+}
+
+#testimonial h2 {
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+#testimonials img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 2rem;
+}
+
+#press {
+    background-color: var(--santa-red-alfa);
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 1.4rem 1.4rem 1.8rem;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#pricing {
+    text-align: center;
+    padding: 4rem;
+}
+
+.pricing-cloumn {
+    padding: 3% 2%;
 }
